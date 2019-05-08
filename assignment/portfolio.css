@@ -1,0 +1,61 @@
+
+
+body{background-color: blue;}
+.son{color: red;
+}
+.navas{display: flex;
+justify-content: flex-end;
+background-color: #090b0d;
+color : #9fb3bf;}
+.navas .main-nav {list-style: none; position: relative; 
+  display: inline-block;}
+.main-nav li {height: 70px;
+  position: relative;
+display: inline-block;}
+
+  .main-nav li a {display: inline-block;
+    height: 50%;
+    color: #9fb3bf;
+    
+  
+    padding: 20px;
+text-decoration: none;
+  }
+  .main-nav li a {display: block;
+  }
+.main-nav li a:hover {
+  background-color: #9fb3bf;
+  color: #090b0d;
+ transition: 0.5s}
+.container {padding: 5rem;}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr
+  grid-gap: 100px
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem
+}
+.card {
+    background: #9fb3bf;
+    border-radius: 5px;
+    padding: 20px
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.card h1 {
+    font-weight: 5em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.card p {
+    text-align: center;
+}
+.icon
