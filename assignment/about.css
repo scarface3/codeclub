@@ -1,0 +1,125 @@
+ body{
+    background-color: rgb(29, 161, 242);
+ }
+
+#header {
+    height: 230px;
+    background-image: url('scar.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Shift', sans-serif;
+}
+#header h2 {    
+    font-size: 4em;
+    position: relative;
+    top: 30px;
+    left: 550px;
+    display: inline;
+}
+#header p {
+    font-size: 1.3em;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    left: 290px;
+    display: inline
+}
+.h2color{
+    color: red;
+}    
+.pcolor{
+    color: blue;
+}
+#menu {
+    position: relative;
+    top: 100px;
+    left: 340px;
+    display: inline-block;
+}
+#menu li{
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+#menu input {
+    font-size: 0.7em;
+    text-transform: lowercase;
+    text-align: right;
+    position: relative;
+    top: -4px;
+}
+#main-content {
+    width: 780px;
+    float: left;
+}
+#news {
+    margin-left: 20px;
+    float: left;
+    width: 180px;
+}
+#boxoffice {
+    width: 780px;
+    height: 500px;
+    background-image: url(diagonal-building.jpg);
+    background-repeat: cover;
+    border-radius: 5px;
+    padding: 20px;
+}
+flex-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+.flex-container {
+    align-items: flex-end;
+}
+.flex-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer1{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+
+    padding: 45px;
+    margin-top: 80px;
+}
+
+.footer1 .footer2{
+    color:  #8d9093;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer1 .footer4{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer1 .footer3{
+    list-style: none;
+    font-weight: bold;
+    color:  #ffffff;
+    padding: 35px 0 23px;
+    margin: 0;
+}
+
+.footer1 .footer3 a{
+    display:inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
